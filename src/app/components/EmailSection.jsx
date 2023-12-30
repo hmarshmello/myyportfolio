@@ -33,10 +33,9 @@ const EmailSection = () => {
         
       </div>
       <div>
-          <form className="flex flex-col" netlify>
+          <form name = "contact" className="flex flex-col" id = "forms">
             <div className="mb-6">
-              <label htmlFor="email" className="text-white block mb-2 text-sm font-medium"
-              >
+              <label htmlFor="email" className="text-white block mb-2 text-sm font-medium">
                 Your email
               </label>
               <input
@@ -49,10 +48,7 @@ const EmailSection = () => {
               />
             </div>
             <div className="mb-6">
-              <label
-                htmlFor="subject"
-                className="text-white block text-sm mb-2 font-medium"
-              >
+              <label htmlFor="subject" className="text-white block text-sm mb-2 font-medium">
                 Subject
               </label>
               <input
@@ -65,10 +61,7 @@ const EmailSection = () => {
               />
             </div>
             <div className="mb-6">
-              <label
-                htmlFor="message"
-                className="text-white block text-sm mb-2 font-medium"
-              >
+              <label htmlFor="message" className="text-white block text-sm mb-2 font-medium" >
                 Message
               </label>
               <textarea
