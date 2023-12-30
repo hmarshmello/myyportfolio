@@ -33,7 +33,8 @@ const EmailSection = () => {
         
       </div>
       <div>
-          <form name = "contact" className="flex flex-col" id = "forms">
+          <form name = "contact" className="flex flex-col" id = "forms"
+          method="post" data-netlify="true" data-netlify-honeypot="bot-field">
             <div className="mb-6">
               <label htmlFor="email" className="text-white block mb-2 text-sm font-medium">
                 Your email
