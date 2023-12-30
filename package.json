@@ -23,7 +23,7 @@
     "react-dom": "18.2.0",
     "react-horizontal-scrolling-menu": "^4.1.1",
     "react-type-animation": "^3.1.0",
-    "resend": "^1.0.0",
+    "resend": "^1.1.0",
     "sharp": "^0.33.1",
     "tailwindcss": "3.3.3",
     "yarn": "^1.22.21"
