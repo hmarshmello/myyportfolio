@@ -15,6 +15,7 @@ const TAB_DATA = [
         <li>R</li>
         <li>MongoDB</li>
         <li>Docker</li>
+        <li>Hilo</li>
       </ul>
     ),
   },
