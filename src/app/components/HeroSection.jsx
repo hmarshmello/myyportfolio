@@ -26,9 +26,11 @@ const HeroSection = () => {
                 1000,
                 "Data Analyst",
                 1000,
-                "Data Engineer",
+                "Data Scientist",
                 1000,
-                "BI Analyst",
+                "Product Analyst",
+                1000,
+                "GenAI Engineer",
                 1000,
               ]}
               wrapper="span"
@@ -37,22 +39,25 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Nice to meet you! I&apos;m a 2024 undergraduate student who loves to analyze data and build data Visualization.
+            Nice to meet you! I&apos;m a 2024 Fresher working as a Analyst and Data Engineer at Tech Consulting Company.
+            I love and adore data because i get to analyze it, build models on them and build Visualizations.
           </p>
+          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xs">
+            Profession: Data Analyst, Data Scientist, Product Analyst, GenAI Engineer, Prompt Engineer</p>
           <div>
             <Link
-              href="https://www.linkedin.com/in/hmarshmello/" target="_blank"
+              href="https://www.linkedin.com/in/harshshrivastava-srm/" target="_blank"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
               Hire Me
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1Wmpt0E-1NGMy7-FzixPQDPLJUJv2w2jv/view?usp=sharing"
+              href="https://drive.google.com/file/d/13Li9gG2HTCJTXzNFCMF7eFeiiLMhtb3b/view?usp=sharing"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
               target="_blank"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
+                View my CV
               </span>
               
             </Link>

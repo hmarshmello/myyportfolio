@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import dynamic from "next/dynamic";
+import { space } from "postcss/lib/list";
 
 const AnimatedNumbers = dynamic(
   () => {
@@ -12,22 +13,28 @@ const AnimatedNumbers = dynamic(
 const achievementsList = [
   {
     metric: "Projects",
-    value: "30",
+    value: "10",
     postfix: "+",
   },
   {
     metric: "Certificates",
-    value: "20",
+    value: "10",
     postfix: "+",
   },
   {
-    metric: "Internship",
+    metric: "Internships",
     value: "3",
   },
   {
-    metric: "Experience",
+    metric: "PQ Companies",
     value: "1",
-    prefix: "<",
+    //prefix: "<",
+  },
+  {
+    metric: "Exp",
+    value: "6",
+    //prefix: "Month",
+    postfix: "Months",
   },
 ];
 
@@ -56,7 +63,7 @@ const AchievementsSection = () => {
                     };
                   }}
                 />
-                {achievement.postfix}
+                &nbsp;{achievement.postfix}
               </h2>
               <p className="text-[#ADB7BE] text-base">{achievement.metric}</p>
             </div>

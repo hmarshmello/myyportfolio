@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const NavLink = ({ href, title }) => {
+const NavLink = ({ href, title, onClick }) => {
   return (
     <Link
       href={href}

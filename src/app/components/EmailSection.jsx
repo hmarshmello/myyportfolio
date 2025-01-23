@@ -24,11 +24,11 @@ const EmailSection = () => {
           <Link href="https://github.com/hmarshmello" target="_blank">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="https://www.linkedin.com/in/hmarshmello/" target="_blank">
+          <Link href="https://www.linkedin.com/in/harshshrivastava-srm/" target="_blank">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
-          <Link href="mailto:harshshrivastavagithub@gmail.com" arget="_blank" rel="noopener noreferrer">
-            <p><br></br>harshshrivastavagithub@gmail.com</p>
+          <Link href="mailto:shrivastavaharsh2024@gmail.com" arget="_blank" rel="noopener noreferrer">
+            <p><br></br>shrivastavaharsh2024@gmail.com</p>
           </Link>
         </div>
       </div>
